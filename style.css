@@ -45,6 +45,12 @@ body {
     position: absolute;
 }
 
+@media screen and (max-width: 600px) {
+body {
+    background: url(./images/bgmobile.png);
+}
+}
+
 @media screen and (max-width: 451px) {
     .description {  
         font-size: 1.8em;
