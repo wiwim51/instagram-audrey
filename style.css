@@ -1,0 +1,68 @@
+@font-face {
+    font-family: 'PT Sans', sans-serif;
+    src: url(../fonts/PTSans-Regular.ttf);
+  }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: url(./images/bg\ milaiguille.png) center/cover;
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.link-style {
+    width: 100px;
+    height: 100px;
+}
+.icon {
+    margin-top: 150px;
+}
+
+.title {
+    font-family: Island,
+    cursive;
+    font-size: 4.2em;
+    font-weight: lighter;
+    color: rgba(202, 122, 255);
+    text-shadow: 2px 2px 4px black;
+    margin-top: 20px;
+}
+.description{
+    font-size: 2em;
+    text-shadow: 2px 2px 2px rgb(255, 180, 249);
+    padding: 10px;
+    color: rgb(0, 0, 0);
+    rotate: 10deg;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 750px;
+    position: absolute;
+}
+
+@media screen and (max-width: 451px) {
+    .description {  
+        font-size: 1.8em;
+    }
+}
+@media screen and (max-width: 409px) {
+    .description {
+        font-size: 1.6em;
+    }
+}
+.bg-description {
+    background-color: rgb(160, 67, 118);
+    opacity: 0.4;
+    color: white;
+    padding: 100px;
+    border: 1px solid black;
+    border-radius: 1em;
+    rotate: 10deg;
+    margin-top: -20px;
+    width: 100%;
+    }
